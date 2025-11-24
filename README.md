@@ -1,4 +1,4 @@
-# 📊 Telecom Customer Churn Analysis (Power BI Project)
+# 📊 Telecom Customer Churn Analysis
 
 This project analyzes **customer churn behavior** for a telecom company using **Power BI, Excel, Power Query, and DAX**.  
 The goal of this project is to help the business understand:
@@ -11,6 +11,20 @@ The goal of this project is to help the business understand:
 This is a complete end-to-end data analytics project — from data cleaning to dashboard building to insight generation.
 
 ---
+## 📊 Dashboard – Page 1
+<p align="center">
+  <img src="https://github.com/varun-anumalla/Telecom-Customer-Churn-Analysis/blob/main/Dashboard-1%20Screenshot.png" alt="Telecom Customer Churn Dashboard Page 1" width="95%">
+</p>
+
+## 📈 Dashboard – Page 2 (Behavior & Insights)
+
+<p align="center">
+  <img src="https://github.com/varun-anumalla/Telecom-Customer-Churn-Analysis/blob/main/Dashboard-2%20Screenshot.png" alt="Telecom Customer Churn Dashboard Page 2" width="95%">
+</p>
+
+## 🎬 Project Walkthrough Video
+[![YouTube Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+
 
 ## 📌 1. Problem Statement
 
@@ -30,7 +44,7 @@ This project aims to build an **interactive Power BI dashboard** to answer these
 
 The client wanted answers to these:
 
-1. **Which customer groups churn the most?**  
+1. **Which customer age groups churn the most?**  
 2. **What are the top reasons for churn?**  
 3. **Which locations have the highest churn?**  
 4. **How does churn vary across age groups, payment methods, and service types?**  
@@ -42,16 +56,15 @@ The client wanted answers to these:
 
 ## 📂 3. Dataset Description
 
-The dataset contains **6,000 rows** of realistic customer data with the following columns:
+The dataset contains nearly **6,000 rows** of data with the following columns:
 
 - **CustomerID** — Unique customer identifier  
 - **Churn_Status** — Yes / No  
 - **Age_Group** — 18–25, 26–35, 36–50, 50+, Unknown  
 - **Gender** — Male, Female, Other  
-- **Telecom_Circle** — Customer location (state / circle)  
+- **Telecom_Circle** — Customer location (state)  
 - **Service_Type** — Prepaid / Postpaid  
-- **Payment_Method** — UPI, Credit Card, Own App, Retail Store, Cash  
-- **Contract_Type** — 28 days, 56 days, 84 days, 90 days, 1 year, etc.  
+- **Payment_Method** — UPI, Credit Card, Own App, Retail Store.
 - **Monthly_Charges** — Monthly bill amount (numeric)  
 - **Total_Charges** — Lifetime bill amount (numeric)  
 - **Tenure_in_Months** — Months customer stayed (numeric)  
@@ -71,8 +84,8 @@ Below are the steps I followed:
   - Age_Group → **Unknown**
   - Gender → **Other**
   - Customer_Satisfaction_Score → filled with **3**
-  - Churn_Reason → filled only for churned customers; left blank for non-churned
-  - Telecom_Circle → **Unknown**
+  - Churn_Reason → filled with other reasons if not mrntioned
+  - Telecom_Circle → ** if not mentioned Unknown**
   - Dependents → **No**
 - Fixed numeric issues:
   - Removed `" Rs"` text from numeric columns
@@ -174,13 +187,8 @@ Explores reasons and behaviors driving churn.
 - **Top churn reasons:** Network Issues, High Price, Wrong Recharge Issues, Poor Customer Service, Competitor Offers.  
 - **Certain circles (Gujarat, UP East, Delhi)** show higher churn — investigate network quality and competitor activity.  
 - **Prepaid users** show different churn patterns than **postpaid**; target onboarding and first-month offers.  
-- **UPI / Own App users churn less** than cash/retail-store users — digital payments correlate with better retention.  
+- **UPI / Own App users churn more** than cash/retail-store users.  
 - **Churned customers have lower avg satisfaction (~2.8)** and shorter tenure — focus on early engagement.
-
----
-
-## 📹 9. Video Walkthrough
-*(Add your video link here — e.g., YouTube / LinkedIn)*
 
 ---
 
