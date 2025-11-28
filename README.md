@@ -23,8 +23,7 @@ This is a complete end-to-end data analytics project — from data cleaning to d
 </p>
 
 ## 🎬 Project Walkthrough Video
-[![YouTube Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
-
+[![Watch the full project walkthrough on YouTube](https://img.youtube.com/vi/I_jYbAE1lL0/0.jpg)](https://www.youtube.com/watch?v=I_jYbAE1lL0)
 
 ## 📌 1. Problem Statement
 
